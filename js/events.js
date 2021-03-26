@@ -6,7 +6,7 @@ $("p").on("Click", getIt);
 
 function frameIt() {
   $('img').on('load', function() {
-     $('img').tasty;
+     $('img').append('.tasty');
   });
 }
 
