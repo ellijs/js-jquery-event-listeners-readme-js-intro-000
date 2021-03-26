@@ -5,8 +5,8 @@ $("p").on("Click", getIt);
 
 
 function frameIt() {
-  $('.tasty').on('load', function() {
-     $('.tasty').css('backgroundColor', 'red');
+  $('img').on('load', function() {
+     $('img').tasty;
   });
 }
 
